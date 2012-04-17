@@ -1,0 +1,25 @@
+{
+  "name": "Video downloader",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Video downloader allow to download video files from any online video player.",
+  "icons": {
+    "16": "film_save_16.png",
+    "32": "film_save_32.png",
+    "48": "film_save_48.png",
+    "128": "film_save_128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "film_save_32.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+  ]
+}

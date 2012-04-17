@@ -1,0 +1,10 @@
+Video downloader allow to download video files from any online video player. 
+
+It has few  limitation: 
+
+1. To find out the video file, you first need start playing it in the player on the page, then click the extention icon, and you will able to download it.
+2. If instead of downloading, it start showing it in your browser, just press "Save page as ...".
+3. Some files saved without file extention, so rename the file depend on the type, that displayed in the list.
+
+Best regards,
+Lev
